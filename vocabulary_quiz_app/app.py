@@ -69,3 +69,5 @@ class VocabularyQuizApp:
             self.feedback_var.set(f"오답입니다. 정답: {self.current.meaning}")
         self.score_var.set(f"Score: {self.score}/{self.total}")
         self.check_button.state(["disabled"])
+
+# feature
